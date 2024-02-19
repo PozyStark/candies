@@ -11,6 +11,11 @@ public class DarkChocolate extends BaseCandy {
         this.cocoaPercent = cocoaPercent;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " CocoaPercent:" + this.cocoaPercent;
+    }
+
     public float getCocoaPercent() {
         return cocoaPercent;
     }

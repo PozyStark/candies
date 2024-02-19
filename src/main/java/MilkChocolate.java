@@ -15,6 +15,11 @@ public class MilkChocolate extends BaseCandy {
         return numberOfRects;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " NumberOfRects:" + this.numberOfRects;
+    }
+
     public void setNumberOfRects(float numberOfRects) {
         this.numberOfRects = numberOfRects;
     }

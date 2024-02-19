@@ -11,6 +11,11 @@ public class WhiteChocolate extends BaseCandy {
         this.hasRaisin = hasRaisin;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " HasRaisin:" + hasRaisin;
+    }
+
     public boolean isHasRaisin() {
         return hasRaisin;
     }

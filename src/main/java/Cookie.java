@@ -11,6 +11,11 @@ public class Cookie extends BaseCandy{
         this.form = form;
     }
 
+    @Override
+    public String toString() {
+        return  super.toString() + " Form:" + this.form;
+    }
+
     public String getForm() {
         return form;
     }

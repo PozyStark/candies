@@ -54,7 +54,7 @@ public class Main {
         }
 
         System.out.println("\n");
-        
+
         // * Второе задание с конфетами
 
         MilkChocolate candie_0 = new MilkChocolate("AlpenGold-(коричневатое искушение)", 80, 59, 59);
@@ -78,7 +78,7 @@ public class Main {
 
     public static void printPresentInfo(ArrayList<BaseCandy> candies) {
         for (BaseCandy candy : candies) {
-            System.out.printf("Name-%s | Weight-%.2fг | Price-%.2fр \n", candy.getName(), candy.getWeight(), candy.getPrice());
+            System.out.printf("CandyInfo: %s \n", candy.toString());
         }
     }
 

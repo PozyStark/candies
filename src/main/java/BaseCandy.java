@@ -10,6 +10,11 @@ public class BaseCandy {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Name:" + this.name + " Weight:" + this.weight+ " Price:"+ this.price;
+    }
+
     public String getName() {
         return name;
     }
